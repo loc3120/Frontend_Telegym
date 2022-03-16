@@ -1,0 +1,16 @@
+.Present_Coach > div > div > h4 {
+    font-size: 20px;
+    text-align: justify;
+    font-weight: normal;
+}
+
+.Present_Coach > div > div > img {
+    width: 100%;
+    height: auto;
+}
+
+.row {
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}

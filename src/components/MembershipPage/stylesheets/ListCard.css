@@ -1,0 +1,125 @@
+.list_container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.list_container > h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2.2rem;
+    color: #d19a23;
+}
+
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.7rem;
+}
+
+.list_container > hr {
+    color: #096e50;
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.card-name {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.link_register {
+    display: grid;
+}
+
+.link_register > a {
+    text-decoration: none;
+}
+
+.buy_btn {
+    margin-bottom: 5px;
+    color: black;
+    text-align: center;
+    background-color: #cac35f;
+    padding: 5px 0;
+}
+
+.register_trying {
+    color: black;
+    text-align: center;
+    background-color: #7eb6d6;
+    padding: 5px 0;
+}
+
+.buy_btn:hover, .register_trying:hover {
+    color: #ffffff;
+}
+
+.membership_detail > p > b {
+    white-space: nowrap;
+}
+
+/* .listcard_container {
+    margin-bottom: 20px;
+}
+
+.card_description {
+    margin: 0 auto;
+}
+
+.package_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.package_detail {
+    border: 1px solid black;
+    box-shadow: darkred;
+    margin: 0 10px;
+}
+
+.package_image_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.package_image_container > img {
+    width: 90%;
+    height: auto;
+    min-height: 100px;
+    margin: 0 auto;
+}
+
+.package_detail > div > p {
+    font-size: 1rem;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+.package_detail > div > div > button {
+    font-size: 1.2rem;
+    margin: 0 auto 10px auto;
+    display: block;
+    background-color: rgb(231, 229, 117);
+    border-radius: 10px;
+    transition: opacity ease-in-out 0.4s;
+}
+
+@media all and (max-width: 800px) {
+    .package_list {
+        display: block;
+    }
+    .package_detail {
+        width: 70%;
+        margin: 0 auto 20px auto;
+    }
+} */

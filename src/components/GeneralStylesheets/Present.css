@@ -1,0 +1,56 @@
+.membership, .coach_page, .candidate_page, .trying_page, .contact_page {
+    margin-top: 80px;
+}
+
+.back_image_container {
+    width: 100%;
+}
+
+.back_image > h2 {
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+    color: #fecc09;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.back_image > p {
+    margin: 0 auto;
+    padding-top: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 50%;
+    text-align: center;
+}
+
+hr {
+    color: #f3f797;
+    text-align: center;
+}
+
+hr:not([size]) {
+    height: 0.5rem;
+}
+
+.back_image {
+    width: 100%;
+    background: rgba(0, 0, 0, .35);
+    /* background-image: url(../ListImage/PresentImage1.png); */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    height: auto;
+    min-height: 500px;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 1;
+    animation: example 5s ease-out 2s infinite alternate;
+}
+
+@keyframes example {
+    from{left: 0px;}
+    to{right: 0px;}
+}

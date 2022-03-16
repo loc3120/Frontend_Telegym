@@ -1,0 +1,76 @@
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2rem;
+}
+
+.container-form {
+    background-color: #dcd0e1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.candidate_page form {
+    /* margin-top: 70px; */
+    display: flex;
+    /* border: 1px solid; */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+legend {
+    text-align: center;
+}
+
+.candidate_page .form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.form-group span {
+    color: rgb(156, 5, 5);
+}
+
+.form-group > label {
+    width: 100%;
+    margin: 10px 0 0 10px;
+    font-weight: bolder;
+}
+
+.form-control {
+    font-size: 1.1rem;
+    /* background-color: rgb(228, 224, 224); */
+}
+
+#btnsubmit {
+    display: block;
+    margin: 20px auto;
+}
+
+.text-red {
+    color: red;
+    padding: 10px 0 2px 0;
+}
+
+textarea {
+    height: 200px;
+}
+
+/* @media all and (max-width: 1024px) {
+    .form-group > label, .form-group > input {
+        font-size: 1rem;
+    }
+}
+
+@media all and (min-width: 1024px) {
+    .form-group > label, .form-group > input {
+        font-size: 1.2rem;
+    }
+} */

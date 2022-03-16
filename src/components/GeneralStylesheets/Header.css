@@ -1,0 +1,80 @@
+.header_wrap {
+    background-color: #392642;
+    width: 100%;
+}
+
+/* header {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.navbar-brand {
+    height: 50px;
+    width: auto;
+    padding: 0;
+}
+
+.navbar-brand img {
+    height: 100%;
+    width: auto;
+}
+
+nav {
+    padding: 0;
+    height: 70px;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.container-fluid {
+    width: 100%;
+    max-width: 1200px;
+}
+
+#navbarID {
+    height: 100%;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-nav {
+    align-items: flex-end;
+}
+
+.navbar-nav a {
+    margin: 0 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-nav a:hover {
+    background-color: #e0c569;
+}
+
+.navbar-nav a:focus {
+    color: #c03232;
+}
+
+@media all and (max-width: 1024px) {
+    .navbar-expand-sm .navbar-nav .nav-link {
+        font-size: 0.8rem;
+    }
+}
+
+@media all and (min-width: 1024px) {
+    .navbar-expand-sm .navbar-nav .nav-link {
+        font-size: 1.2rem;
+    }
+} */
+
+.header_wrap > nav > a > img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+}
